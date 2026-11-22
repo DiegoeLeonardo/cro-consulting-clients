@@ -1,152 +1,83 @@
-# Mary Frances Four Month CRO Roadmap
+# Mary Frances CRO Delivery Roadmap
 
 **Hypothetical retrospective reconstruction | July–October 2026**
 
 Prepared by **Daniele Santoro · DS CRO Consulting**.
 
-This portfolio planning example reconstructs how the recommendations in the June 2026 Mary Frances audit could have been delivered over the last four completed months. Dates, role assignments, sequencing and deliverables are illustrative. They are not evidence that work was executed, that experiments ran, or that results were achieved. Execution status for every item: **Not verified**.
+This planning example follows the audit's six-point delivery schedule. Calendar dates assume a 1 July 2026 start; they do not establish actual execution, release dates or achieved results. All execution statuses remain **Not verified**. This revision supersedes the earlier 12-item schedule in this file and its CSV.
 
-## Objective and evidence
+## Source and timing convention
 
-Reduce purchase friction while protecting contribution margin, beginning with reliable measurement and checkout cost transparency. The audit reports a 0.46% session-to-purchase rate across September 2025–May 2026 and flags March–April ATC anomalies. These are historical audit inputs, not verified July–October baselines. Re-establish the baseline before launch. No revenue uplift is claimed.
+[Mary Frances CRO Audit](https://diegoeleonardo.github.io/cro-consulting-clients/maryfrances-cro-audit/daniele-santoro/), Section 05, Prioritised Action Plan, 6-Point CRO Roadmap. Weeks are consecutive seven-day windows beginning 1 July; Months 2 and 3 are August and September. October is an explicitly added monitoring/handover period, not an audit delivery requirement.
 
-Source: [Mary Frances CRO Audit](https://diegoeleonardo.github.io/cro-consulting-clients/maryfrances-cro-audit/daniele-santoro/).
+## Audit delivery commitments
 
-## Monthly delivery plan
+| ID | Deliverable | Audit timing | Illustrative start | Illustrative finish | Effort or priority |
+|---|---|---|---|---|---|
+| MF01 | Address checkout price-discovery gap | Week 1–2 | 2026-07-01 | 2026-07-14 | Low |
+| MF02 | Add free-shipping progress bar and upsells | Week 2–3 | 2026-07-08 | 2026-07-21 | Medium |
+| MF03 | Expand Remarkety email flows | Week 3–5 | 2026-07-15 | 2026-08-04 | Medium |
+| MF04 | Review and implement Meta retargeting shift | Week 2 | 2026-07-08 | 2026-07-14 | Low |
+| MF05 | Add exit-intent popup and trust signals | Week 3–4 | 2026-07-15 | 2026-07-28 | Medium |
+| MF06 | Scale Google Search and add BNPL | Month 2–3 | 2026-08-01 | 2026-09-30 | High |
 
-| Month | Focus | Review gate |
-|---|---|---|
-| July 2026 | Measurement, prioritization and checkout/cart designs | Trustworthy baseline and approved experiment briefs |
-| August 2026 | Development, QA, first experiment and lifecycle build | Tracking, UX, policy and rollout readiness |
-| September 2026 | Experiment readouts, next cart test and lifecycle pilots | Evidence sufficient to decide or extend; margin protected |
-| October 2026 | Validate, selectively roll out and hand over | Documented decisions, monitoring and next-quarter backlog |
+## Four month overview
 
-## Work items
+| Period | Deliveries and review |
+|---|---|
+| July | Checkout Weeks 1–2; cart merchandising Weeks 2–3; Meta Week 2; popup/trust Weeks 3–4; email starts Week 3 |
+| August | Email build finishes Week 5 on 4 August; Google Search and BNPL work continues in Month 2 |
+| September | Google Search and BNPL delivery window closes in Month 3, subject to commercial and technical approval |
+| October | Added validation, monitoring and handover; expand or retain control based on evidence |
 
-| ID | Work item | Start | Target finish | Suggested owner role | Priority | Dependencies |
-|---|---|---|---|---|---|---|
-| MF01 | Validate measurement and establish baseline | 2026-07-01 | 2026-07-10 | Analytics | P0 | None |
-| MF02 | Prioritize hypotheses and define test plans | 2026-07-06 | 2026-07-17 | CRO strategy | P0 | MF01 |
-| MF03 | Design cart cost transparency and checkout improvements | 2026-07-13 | 2026-07-31 | UX and Shopify development | P0 | MF01; MF02 |
-| MF04 | Develop and QA cart and checkout experiment | 2026-08-03 | 2026-08-14 | Shopify development and QA | P0 | MF03 |
-| MF05 | Evaluate cost-transparency experiment | 2026-08-17 | 2026-09-11 | CRO and analytics | P0 | MF04 |
-| MF06 | Build cart reassurance and accessory concepts | 2026-08-03 | 2026-08-28 | UX and merchandising | P1 | MF02 |
-| MF07 | Develop Remarkety lifecycle flows | 2026-08-10 | 2026-09-11 | Lifecycle marketing | P1 | MF01; MF02 |
-| MF08 | Validate Meta and search acquisition strategy | 2026-08-17 | 2026-09-18 | Paid media and analytics | P1 | MF01; MF02 |
-| MF09 | Test cart merchandising and mobile checkout CTA | 2026-09-14 | 2026-10-09 | CRO and Shopify development | P1 | MF05; MF06 |
-| MF10 | Pilot lifecycle flows and measure incrementality | 2026-09-14 | 2026-10-16 | Lifecycle marketing and analytics | P1 | MF07 |
-| MF11 | Assess BNPL and search expansion feasibility | 2026-09-21 | 2026-10-16 | CRO and commercial operations | P2 | MF05; MF08 |
-| MF12 | Roll out validated changes and deliver handover | 2026-10-12 | 2026-10-30 | CRO lead and client team | P0 | MF05; MF09; MF10; MF11 |
+## Delivery gates
 
-## Delivery timeline
+### MF01 Address checkout price-discovery gap
 
-```mermaid
-gantt
-    title Mary Frances hypothetical implementation roadmap
-    dateFormat YYYY-MM-DD
-    axisFormat %b
-    section Foundations
-    Measurement and baseline :mf1, 2026-07-01, 2026-07-10
-    Prioritization and test plans :mf2, 2026-07-06, 2026-07-17
-    UX and checkout designs :mf3, 2026-07-13, 2026-07-31
-    section Build and evaluate
-    Development and QA :mf4, 2026-08-03, 2026-08-14
-    Cost transparency experiment :mf5, 2026-08-17, 2026-09-11
-    Cart merchandising concepts :mf6, 2026-08-03, 2026-08-28
-    Lifecycle flow development :mf7, 2026-08-10, 2026-09-11
-    Acquisition validation :mf8, 2026-08-17, 2026-09-18
-    section Validate and hand over
-    Next cart experiment :mf9, 2026-09-14, 2026-10-09
-    Lifecycle pilots :mf10, 2026-09-14, 2026-10-16
-    BNPL and search assessment :mf11, 2026-09-21, 2026-10-16
-    Validated rollout and handover :mf12, 2026-10-12, 2026-10-30
-```
+Shipping estimate and tax preview on cart; uncheck marketing opt-in; remove Company field where Shopify permits.
 
-## Scope and acceptance criteria
+**Acceptance:** Accurate regional estimates; event QA; checkout regression and rollback checks.
 
-### MF01 Validate measurement and establish baseline
+### MF02 Add free-shipping progress bar and upsells
 
-Reconcile Shopify completed online-store orders; audit March-April ATC duplication; segment by device and channel.
+Dynamic threshold progress and curated accessory add-ons; collapse order notes.
 
-**Acceptance gate:** Signed-off event QA and baseline dashboard; historical anomalies annotated.
+**Acceptance:** Approve threshold economics and eligibility; verify product matching, mobile layout and totals.
 
-### MF02 Prioritize hypotheses and define test plans
+### MF03 Expand Remarkety email flows
 
-Rank shipping transparency, cart friction, email and acquisition opportunities; define eligibility, randomization, MDE and stopping rules.
+Post-purchase cross-sell; 60/90/120-day win-back; VIP early access; browse abandonment.
 
-**Acceptance gate:** Approved backlog and experiment briefs; primary metric RPV with conversion, margin, AOV and performance guardrails.
+**Acceptance:** Validate consent, suppression, triggers and feeds. Flow delivery is distinct from observing mature win-back results.
 
-### MF03 Design cart cost transparency and checkout improvements
+### MF04 Review and implement Meta retargeting shift
 
-Design shipping and tax estimates, delivery reassurance and express-payment hierarchy; assess form and opt-in changes within Shopify plan constraints.
+Audit recommendation: shift Meta emphasis from purchase campaigns to traffic/awareness and cart-abandonment retargeting.
 
-**Acceptance gate:** Approved desktop/mobile designs; accurate estimates, policy copy and technical feasibility.
+**Acceptance:** Validate tracking, attribution, audience sizes and commercial approval before changing budgets; channel averages alone do not establish causality.
 
-### MF04 Develop and QA cart and checkout experiment
+### MF05 Add exit-intent popup and trust signals
 
-Implement candidate changes in staging; verify regional estimates, checkout tracking, browser/device coverage, accessibility and rollback.
+Non-discount gift-message/save-cart offer and reassurance near checkout.
 
-**Acceptance gate:** QA sign-off, no duplicate events and documented rollback before exposure.
+**Acceptance:** Verify actual returns and delivery policies before publishing claims; validate dismissal, keyboard and mobile behavior.
 
-### MF05 Evaluate cost-transparency experiment
+### MF06 Scale Google Search and add BNPL
 
-Run a controlled experiment if traffic supports the agreed sample; monitor checkout completion, RPV and contribution margin.
+Evaluate Performance Max and branded/category keywords; integrate Klarna or Afterpay if approved and eligible.
 
-**Acceptance gate:** Decision memo with confidence intervals and guardrails; extend or retain control if inconclusive.
+**Acceptance:** Approve fees, merchant eligibility, contribution margin and campaign controls; QA payment and refund flows.
 
-### MF06 Build cart reassurance and accessory concepts
+## Measurement and validation
 
-Prototype free-shipping threshold/progress, theme-matched accessories, collapsed notes and mobile checkout CTA.
+Run baseline/event QA before or alongside Week 1 work, including review of the March–April ATC anomaly. Keep Shopify Online Store completed checkouts separate from other channels. QA, implementation and experiment readouts are separate milestones: the source's delivery dates do not guarantee statistical significance or uplift.
 
-**Acceptance gate:** Margin-approved threshold and prototype QA; test separately from MF05 unless mutually exclusive.
+Track revenue per session, conversion, checkout completion, AOV and contribution margin; guard against errors, returns, email complaints and performance regressions. Isolate overlapping experiments or schedule them sequentially. Record inconclusive results as inconclusive. The audit's 1.0% conversion scenario is an aspiration, not a delivered outcome or a four-month commitment.
 
-### MF07 Develop Remarkety lifecycle flows
+## October extension
 
-Design browse abandonment, post-purchase cross-sell, VIP access and 60/90/120-day win-back triggers.
+Review validated changes and remaining hypotheses; document rollback and ownership; inspect cohort maturity for win-back flows. New 120-day cohorts entering in July/August may mature after October. No changes are marked Done without delivery evidence.
 
-**Acceptance gate:** Consent, suppression, product feeds and deliverability verified; holdouts defined. Long win-back outcomes may extend beyond October.
+## GitHub Project fields
 
-### MF08 Validate Meta and search acquisition strategy
-
-Review attribution, campaign intent and new/returning cohorts; test controlled retargeting and search allocations after signal QA.
-
-**Acceptance gate:** Budget decision based on incrementality, CAC and contribution margin; no automatic switch based only on channel averages.
-
-### MF09 Test cart merchandising and mobile checkout CTA
-
-Test the next highest-priority cart hypothesis sequentially; confirm any shipping incentive preserves margin.
-
-**Acceptance gate:** Experiment readout; implementation conditional on sample sufficiency and guardrails.
-
-### MF10 Pilot lifecycle flows and measure incrementality
-
-Stage eligible flow launches; monitor holdouts, revenue per recipient, unsubscribes and complaints.
-
-**Acceptance gate:** Flow-level decision log; separate observed early results from immature 60/90/120-day cohorts.
-
-### MF11 Assess BNPL and search expansion feasibility
-
-Assess provider fees, payment eligibility, checkout compatibility and search expansion economics.
-
-**Acceptance gate:** Go/no-go business case; pilot only after commercial and technical approval.
-
-### MF12 Roll out validated changes and deliver handover
-
-Release only validated changes with monitoring; compile experiment decisions, unresolved hypotheses, playbook and next-quarter backlog.
-
-**Acceptance gate:** Documented release/rollback checklist and stakeholder readout; no assumed uplift or completion claims.
-
-## Measurement and operating cadence
-
-- Primary business metric: revenue per eligible session; checkout-focused tests also track checkout completion.
-- Guardrails: contribution margin, AOV, refunds, checkout errors, mobile performance, email unsubscribes/complaints and acquisition efficiency.
-- Weekly: review measurement quality, delivery blockers, experiment health and decisions. Record decisions and dependencies rather than retroactively marking work Done.
-- Experiments: calculate sample size from the validated baseline; predefine stopping rules and confidence level. Calendar finish dates are planning targets, not guarantees of statistical significance.
-- Protect attribution: isolate simultaneous tests by audience/page or run sequentially. Use holdouts for lifecycle and acquisition where feasible.
-- Publish policy and delivery claims only after client verification; checkout customization depends on Shopify plan and app capabilities.
-
-## GitHub Project setup
-
-Use Title, Client, Start date, Target date, Phase, Priority, Owner role, Dependencies and Evidence status fields. Set Client to Mary Frances and Evidence status to Hypothetical for all items. Keep the Project description explicit: “Hypothetical retrospective reconstruction; execution and results not verified.” Do not assign Done without actual delivery evidence.
-
-The accompanying CSV is a transfer worksheet; it does not automatically populate GitHub Projects or set timeline fields. This file being in the repository does not mean Project 1 has been updated.
+Use ID, Title, Client, Audit timing, Start date, Target date, Effort/Priority and Evidence status. All calendar dates and role assignments are illustrative. CSV is a transfer worksheet, not an automatic GitHub Projects import or proof that Project 1 was updated.
